@@ -20,7 +20,7 @@ public class JChartsExample {
     public static void main(String[] args) {
         FileOutputStream fout;
         try {
-            fout = new FileOutputStream(new File("C:\\Users\\amar.sarkar\\Downloads\\Problem2-Read-Data-from-cv2\\src\\main\\resources\\photo.png"));
+            fout = new FileOutputStream(new File("C:\Assignment2Task2\Problem2\src\main\resources\\photo.png"));
         } catch (FileNotFoundException e) {
             throw new RuntimeException(e);
         }
